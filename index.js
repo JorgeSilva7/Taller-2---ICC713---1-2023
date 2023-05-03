@@ -18,7 +18,7 @@ function startGame() {
 		character1,
 		character2,
 		logs: initLogs,
-	} = initBattle({ characterOneName: nameOne, characterTwoName: nameTwo });
+	} = initBattle(nameOne, nameTwo);
 
 	const battleLogs = battle(character1, character2);
 

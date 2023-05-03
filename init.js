@@ -54,12 +54,11 @@ function generateCharacter(name) {
 
 /**
  *
- * @param {object} args - required arguments
- * @param {Character} characterOneName - Name of the first character
- * @param {Character} characterTwoName - Name of the second character
+ * @param {string} characterOneName - Name of the first character
+ * @param {string} characterTwoName - Name of the second character
  * @returns {object} character1: generated character 1, character2: generated character 2, logs: init logs
  */
-function initBattle({ characterOneName, characterTwoName }) {
+function initBattle(characterOneName, characterTwoName) {
 	const character1 = generateCharacter(characterOneName);
 	const character2 = generateCharacter(characterTwoName);
 
